@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
-* how to set line numbers by default for my vi editor
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+i
 int main(void)
 {
 	int n;
