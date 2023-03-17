@@ -2,13 +2,13 @@
 /**
 * main - entry point
 *
-* Return: always return  0 success
+* Return 0 - return success code
 */
 int main(void)
 {
 	char letter;
-	/* print alphabets in reverse */
-	for (letter = 'z'; letter >= 'a'; letter--)
+
+	for (letter = '0'; letter <= 'f'; letter++)
 	{
 		putchar(letter);
 	}
@@ -16,3 +16,4 @@ int main(void)
 
 	return (0);
 }
+
