@@ -6,9 +6,11 @@
 */
 int main(void)
 {
-	char letters[] = "0123456789abcdef";
-
-	for (int i = 0; i < 16; i++)
+	char letters[];
+	letters = "0123456789abcdef";
+	
+	int i;
+	for (i = 0; i < 16; i++)
 	{
 		putchar(letters[i]);
 	}
