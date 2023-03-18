@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char letters[];
+	char letters[16];
 
 	letters = "0123456789abcdef";
 	int i;
