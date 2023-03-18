@@ -6,14 +6,14 @@
 */
 int main(void)
 {
-	char letters[16];
-
-	letters = "0123456789abcdef";
 	int i;
 
 	for (i = 0; i < 16; i++)
 	{
-		putchar(letters[i]);
+		if (i < 10)
+			putchar('0' + i);
+		else
+			putchar('a' + (i - 10));
 	}
 	putchar('\n');
 
