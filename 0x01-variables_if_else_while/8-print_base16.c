@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-	char letter;
+	char letters[] = "0123456789abcdef";
 
-	for (letter = '0'; letter <= 'f'; letter++)
+	for (int i = 0; i < 16; i++)
 	{
-		putchar(letter);
+		putchar(letters[i]);
 	}
 	putchar('\n');
 
