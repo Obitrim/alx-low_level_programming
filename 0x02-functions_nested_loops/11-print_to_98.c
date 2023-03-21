@@ -24,7 +24,7 @@ void print_to_98(int n)
 		{
 			printf("%d", lower_limit);
 			lower_limit--;
-			if (lower_limit != upper_limit)
+			if (lower_limit > upper_limit - 1)
 				printf(", ");
 		}
 	}
