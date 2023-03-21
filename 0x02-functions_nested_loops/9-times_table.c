@@ -32,7 +32,6 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-	
 
 			if (j == upper_limit)
 				_putchar('\n');
