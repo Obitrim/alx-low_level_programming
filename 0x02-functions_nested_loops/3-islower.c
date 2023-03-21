@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _islower - Check if number is alphabet
  *
- * Return: Always 0 (Success)
+ * Return: 1 if @c is lowercase alphabet or 0 if otherwise
  */
 int _islower(int c)
 {
-	if (c >= 48 && c <= 54)
+	if (c >= 97 && c <= 122)
 		return 1;
 	else
 		return 0;
