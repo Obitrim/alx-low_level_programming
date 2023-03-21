@@ -13,13 +13,13 @@ void print_alphabet(void)
 /**
  * print_alphabet_x10 - Entry point
  *
- * Return: Always nothing
+ * Return: Always 0 Success
  */
 void print_alphabet_x10(void)
 {
 	int index;
 
-	for (index = 0; index <= 10; index++)
+	for (index = 0; index <= 9; index++)
 	{
 		print_alphabet();
 	}
