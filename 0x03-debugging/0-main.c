@@ -10,6 +10,7 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
+	_putchar('\n');
 
 	return (0);
 }
