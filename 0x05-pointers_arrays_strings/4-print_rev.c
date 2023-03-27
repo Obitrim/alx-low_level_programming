@@ -13,10 +13,10 @@ void print_rev(char *s)
 	{
 		count++;
 	}
-
-	while (count > -1)
+	
+	while (count - 1 > -1)
 	{
 		_putchar(*(s + count));
 		count--;
 	}
-}
+
