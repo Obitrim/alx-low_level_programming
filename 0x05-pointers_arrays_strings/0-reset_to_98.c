@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - reset @n to 98
  *
- * @n - pointer to number to change
+ * @n: pointer to number to change
  *
  * Return: Always 0 (Success)
  */
