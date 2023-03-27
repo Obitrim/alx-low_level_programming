@@ -1,11 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * _strlen - print string length
+ * @s: pointer to character
  * Return: Always 0 (Success)
  */
-int main(void)
+int _strlen(char *s)
 {
-	print_alphabet();
-	return (0);
+	int count;
+
+	count = 0;
+	while (*(s + count) != '\0')
+	{
+		count++;
+	}
+	return (count);
 }
