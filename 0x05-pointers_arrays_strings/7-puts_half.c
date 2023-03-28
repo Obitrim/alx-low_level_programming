@@ -16,9 +16,8 @@ void puts_half(char *str)
 		p++;
 	}
 
-	len--;
 	halfLen = len / 2;
-	startIdx = (len % 2 == 0) ? halfLen : halfLen + 1;
+	startIdx = (len % 2 == 0) ? halfLen : (len - 1) / 2;
 
 	for (idx = startIdx; idx <= len; idx++)
 	{
