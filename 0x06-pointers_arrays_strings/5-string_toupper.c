@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - conver lowercase to uppercase
+ * string_toupper - conver lowercase to uppercase
  * @s: string
  * Return: Always 0 (Success)
  */
