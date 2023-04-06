@@ -17,7 +17,7 @@ int is_prime_number(int n)
 }
 
 /**
-* can_divide: checks if @n can be divided by @i
+* can_divide - checks if @n can be divided by @i
 * @n: number
 * @i: divisor
 * Return: 0 or 1;
