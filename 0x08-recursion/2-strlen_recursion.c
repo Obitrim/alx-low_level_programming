@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
  * _strlen_recursion - print length of string
  * @s: string pointer
