@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - print string in reverse;
- *
+ * @s: string pointer
  * Return: Always 0 (Success)
  */
 void _print_rev_recursion(char *s)

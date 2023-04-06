@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - print string recursively
- *
+ * @s: string pointer
  * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
