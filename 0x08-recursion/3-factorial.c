@@ -1,5 +1,5 @@
 /**
- * main - Entry point
+ * factorial - calculate factorial of a number
  * @n: given number
  * Return: factorial of a number
  */
